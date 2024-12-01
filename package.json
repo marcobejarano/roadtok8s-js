@@ -1,0 +1,16 @@
+{
+  "name": "roadtok8s-js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^5.0.1"
+  }
+}
