@@ -1,0 +1,9 @@
+.git
+.gitattributes
+.gitignore
+Dockerfile
+node_modules/
+*.env
+*.env/
+*.venv/
+*venv/
