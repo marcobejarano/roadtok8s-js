@@ -1,0 +1,18 @@
+networks:
+  bun_network:
+    driver: bridge
+    name: bun_network
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: roadtok8s-js-web
+    container_name: roadtok8s-js-web
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    networks:
+      - bun_network
